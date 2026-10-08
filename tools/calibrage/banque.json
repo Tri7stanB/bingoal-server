@@ -1,0 +1,106 @@
+{
+  "_note": "Banque de départ Bingoal. Niveaux calibrés sur 105 matchs de Ligue 1 2022-23 (calibrer.py). Points : espérance proche pour chaque niveau (~5 pts par case).",
+  "points": {
+    "facile": 10,
+    "moyenne": 20,
+    "difficile": 30,
+    "bonus_ligne": 10
+  },
+  "propositions": [
+    {
+      "id": "over_2_5",
+      "texte": "Plus de 2,5 buts",
+      "niveau": "facile",
+      "regle": "total_goals_over",
+      "params": {
+        "seuil": 2.5
+      }
+    },
+    {
+      "id": "btts",
+      "texte": "Les deux équipes marquent",
+      "niveau": "facile",
+      "regle": "both_teams_score",
+      "params": {}
+    },
+    {
+      "id": "goal_before_25",
+      "texte": "But avant la 25e minute",
+      "niveau": "facile",
+      "regle": "goal_before_minute",
+      "params": {
+        "minute": 25
+      }
+    },
+    {
+      "id": "corners_over_9",
+      "texte": "Plus de 9 corners dans le match",
+      "niveau": "facile",
+      "regle": "stat_total_over",
+      "params": {
+        "stat": "Corner Kicks",
+        "seuil": 9.5
+      }
+    },
+    {
+      "id": "penalty",
+      "texte": "Penalty marqué",
+      "niveau": "moyenne",
+      "regle": "penalty_scored",
+      "params": {}
+    },
+    {
+      "id": "var",
+      "texte": "Intervention de la VAR",
+      "niveau": "moyenne",
+      "regle": "var_event",
+      "params": {}
+    },
+    {
+      "id": "sub_scorer",
+      "texte": "Un remplaçant marque",
+      "niveau": "moyenne",
+      "regle": "substitute_scores",
+      "params": {}
+    },
+    {
+      "id": "red_card",
+      "texte": "Carton rouge",
+      "niveau": "moyenne",
+      "regle": "red_card",
+      "params": {}
+    },
+    {
+      "id": "stoppage_goal",
+      "texte": "But dans les arrêts de jeu",
+      "niveau": "difficile",
+      "regle": "goal_in_stoppage_time",
+      "params": {}
+    },
+    {
+      "id": "brace",
+      "texte": "Un joueur marque un doublé",
+      "niveau": "difficile",
+      "regle": "player_scores_n",
+      "params": {
+        "n": 2
+      }
+    },
+    {
+      "id": "own_goal",
+      "texte": "But contre son camp",
+      "niveau": "difficile",
+      "regle": "own_goal",
+      "params": {}
+    },
+    {
+      "id": "over_4_5",
+      "texte": "Plus de 4,5 buts",
+      "niveau": "difficile",
+      "regle": "total_goals_over",
+      "params": {
+        "seuil": 4.5
+      }
+    }
+  ]
+}

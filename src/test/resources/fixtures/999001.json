@@ -1,0 +1,422 @@
+{
+ "get": "fixtures",
+ "parameters": {
+  "id": "999001"
+ },
+ "errors": [],
+ "results": 1,
+ "response": [
+  {
+   "fixture": {
+    "id": 999001,
+    "status": {
+     "long": "Match Finished",
+     "short": "FT",
+     "elapsed": 90
+    }
+   },
+   "teams": {
+    "home": {
+     "id": 79,
+     "name": "Lille"
+    },
+    "away": {
+     "id": 81,
+     "name": "Marseille"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 1
+   },
+   "score": {
+    "halftime": {
+     "home": 0,
+     "away": 1
+    },
+    "fulltime": {
+     "home": 3,
+     "away": 1
+    },
+    "extratime": {
+     "home": null,
+     "away": null
+    },
+    "penalty": {
+     "home": null,
+     "away": null
+    }
+   },
+   "events": [
+    {
+     "time": {
+      "elapsed": 19,
+      "extra": null
+     },
+     "team": {
+      "id": 81,
+      "name": "Marseille"
+     },
+     "player": {
+      "id": 1001,
+      "name": "S. Gigot"
+     },
+     "assist": {
+      "id": null,
+      "name": null
+     },
+     "type": "subst",
+     "detail": "Substitution 1",
+     "comments": null
+    },
+    {
+     "time": {
+      "elapsed": 29,
+      "extra": null
+     },
+     "team": {
+      "id": 81,
+      "name": "Marseille"
+     },
+     "player": {
+      "id": 1010,
+      "name": "J. Clauss"
+     },
+     "assist": {
+      "id": null,
+      "name": null
+     },
+     "type": "Goal",
+     "detail": "Normal Goal",
+     "comments": null
+    },
+    {
+     "time": {
+      "elapsed": 37,
+      "extra": null
+     },
+     "team": {
+      "id": 81,
+      "name": "Marseille"
+     },
+     "player": {
+      "id": 1003,
+      "name": "L. Balerdi"
+     },
+     "assist": {
+      "id": null,
+      "name": null
+     },
+     "type": "Card",
+     "detail": "Yellow Card",
+     "comments": null
+    },
+    {
+     "time": {
+      "elapsed": 45,
+      "extra": 2
+     },
+     "team": {
+      "id": 79,
+      "name": "Lille"
+     },
+     "player": {
+      "id": 2005,
+      "name": "B. André"
+     },
+     "assist": {
+      "id": null,
+      "name": null
+     },
+     "type": "Card",
+     "detail": "Yellow Card",
+     "comments": null
+    },
+    {
+     "time": {
+      "elapsed": 50,
+      "extra": null
+     },
+     "team": {
+      "id": 79,
+      "name": "Lille"
+     },
+     "player": {
+      "id": 2009,
+      "name": "J. David"
+     },
+     "assist": {
+      "id": null,
+      "name": null
+     },
+     "type": "Goal",
+     "detail": "Penalty",
+     "comments": null
+    },
+    {
+     "time": {
+      "elapsed": 62,
+      "extra": null
+     },
+     "team": {
+      "id": 81,
+      "name": "Marseille"
+     },
+     "player": {
+      "id": 1009,
+      "name": "A. Sánchez"
+     },
+     "assist": {
+      "id": null,
+      "name": null
+     },
+     "type": "Var",
+     "detail": "Goal cancelled",
+     "comments": null
+    },
+    {
+     "time": {
+      "elapsed": 68,
+      "extra": null
+     },
+     "team": {
+      "id": 79,
+      "name": "Lille"
+     },
+     "player": {
+      "id": 2011,
+      "name": "J. Bamba"
+     },
+     "assist": {
+      "id": null,
+      "name": null
+     },
+     "type": "Card",
+     "detail": "Red Card",
+     "comments": null
+    },
+    {
+     "time": {
+      "elapsed": 70,
+      "extra": null
+     },
+     "team": {
+      "id": 79,
+      "name": "Lille"
+     },
+     "player": {
+      "id": 2011,
+      "name": "J. Bamba"
+     },
+     "assist": {
+      "id": null,
+      "name": null
+     },
+     "type": "Var",
+     "detail": "Red card cancelled",
+     "comments": null
+    },
+    {
+     "time": {
+      "elapsed": 72,
+      "extra": null
+     },
+     "team": {
+      "id": 79,
+      "name": "Lille"
+     },
+     "player": {
+      "id": 2020,
+      "name": "M. Bayo"
+     },
+     "assist": {
+      "id": null,
+      "name": null
+     },
+     "type": "Goal",
+     "detail": "Normal Goal",
+     "comments": null
+    },
+    {
+     "time": {
+      "elapsed": 90,
+      "extra": 3
+     },
+     "team": {
+      "id": 79,
+      "name": "Lille"
+     },
+     "player": {
+      "id": 2009,
+      "name": "J. David"
+     },
+     "assist": {
+      "id": null,
+      "name": null
+     },
+     "type": "Goal",
+     "detail": "Normal Goal",
+     "comments": null
+    }
+   ],
+   "lineups": [
+    {
+     "team": {
+      "id": 79
+     },
+     "startXI": [
+      {
+       "player": {
+        "id": 2001
+       }
+      },
+      {
+       "player": {
+        "id": 2002
+       }
+      },
+      {
+       "player": {
+        "id": 2003
+       }
+      },
+      {
+       "player": {
+        "id": 2004
+       }
+      },
+      {
+       "player": {
+        "id": 2005
+       }
+      },
+      {
+       "player": {
+        "id": 2006
+       }
+      },
+      {
+       "player": {
+        "id": 2007
+       }
+      },
+      {
+       "player": {
+        "id": 2008
+       }
+      },
+      {
+       "player": {
+        "id": 2009
+       }
+      },
+      {
+       "player": {
+        "id": 2010
+       }
+      },
+      {
+       "player": {
+        "id": 2011
+       }
+      }
+     ]
+    },
+    {
+     "team": {
+      "id": 81
+     },
+     "startXI": [
+      {
+       "player": {
+        "id": 1001
+       }
+      },
+      {
+       "player": {
+        "id": 1002
+       }
+      },
+      {
+       "player": {
+        "id": 1003
+       }
+      },
+      {
+       "player": {
+        "id": 1004
+       }
+      },
+      {
+       "player": {
+        "id": 1005
+       }
+      },
+      {
+       "player": {
+        "id": 1006
+       }
+      },
+      {
+       "player": {
+        "id": 1007
+       }
+      },
+      {
+       "player": {
+        "id": 1008
+       }
+      },
+      {
+       "player": {
+        "id": 1009
+       }
+      },
+      {
+       "player": {
+        "id": 1010
+       }
+      },
+      {
+       "player": {
+        "id": 1011
+       }
+      }
+     ]
+    }
+   ],
+   "statistics": [
+    {
+     "team": {
+      "id": 79
+     },
+     "statistics": [
+      {
+       "type": "Corner Kicks",
+       "value": 4
+      },
+      {
+       "type": "Ball Possession",
+       "value": "48%"
+      }
+     ]
+    },
+    {
+     "team": {
+      "id": 81
+     },
+     "statistics": [
+      {
+       "type": "Corner Kicks",
+       "value": 3
+      },
+      {
+       "type": "Ball Possession",
+       "value": "52%"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

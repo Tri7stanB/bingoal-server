@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: bingoal-server
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/bingoal}
+    username: ${DB_USER:bingoal}
+    password: ${DB_PASSWORD:bingoal}
+
+bingoal:
+  # "api-football" pour les vrais matchs, "replay" pour rejouer un match déjà joué depuis un fichier JSON
+  data-source: ${BINGOAL_DATA_SOURCE:replay}
+  api-football:
+    base-url: https://v3.football.api-sports.io
+    key: ${APIFOOTBALL_KEY:}
+  replay:
+    dir: ${BINGOAL_REPLAY_DIR:./replays}
+    # minutes de jeu avancées à chaque passage du poller
+    minutes-per-poll: ${BINGOAL_REPLAY_STEP:5}
+  poller:
+    interval: ${BINGOAL_POLL_INTERVAL:30s}
+    # le poller démarre 5 min avant le coup d'envoi et vérifie encore 10 min après le coup de sifflet
+    start-before-kickoff: 5m
+    final-check-after: 10m
+  admin-token: ${BINGOAL_ADMIN_TOKEN:dev}

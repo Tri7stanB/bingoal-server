@@ -1,0 +1,9 @@
+.gradle/
+build/
+.idea/
+*.iml
+.env
+replays/*.json
+.kotlin/
+tools/calibrage/matchs/
+match_*.json
